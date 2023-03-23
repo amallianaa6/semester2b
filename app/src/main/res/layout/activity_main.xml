@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/smallTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="TM01_22090166_AMALLIANURULAZIZAH_2B"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout-editor_absoluteY="54dp"
+        tools:ignore="MissingConstraints"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/smallTitle"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/teks1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="MESSAGE:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/smallTitle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp" />
+
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:text="STATUS:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/smallTitle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <TextView
+        android:id="@+id/teks3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="COMMENT:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/smallTitle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Data Received"
+        app:layout_constraintTop_toBottomOf="@id/teks1"
+        tools:layout_editor_absoluteX="14p"
+        tools:layout_editor_absoluteY="202dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Halo Siswa Algo"
+        app:layout_constraintTop_toBottomOf="@+id/teks2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="293dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Anda Sudah Terkoneksi"
+        app:layout_constraintTop_toBottomOf="@id/teks3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLOSE"
+        app:layout_constraintTop_toBottomOf="@id/editTextTextPersonName3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor-absoluteY="448dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
